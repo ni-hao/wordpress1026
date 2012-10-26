@@ -1,0 +1,37 @@
+.w2 {
+	min-height:100%;
+	background:#fff;
+}
+/* main */
+#main {padding-bottom:expression(document.getElementById("footer").offsetHeight + "px");}
+/* footer */
+#footer{
+	position:relative;
+	z-index:1;
+	margin-top:expression(- this.offsetHeight + "px");
+}
+.ordered-list li {
+	behavior: expression(
+		(this.pngSet!=null ? this.pngSet=true : (
+			function(t){
+				t.Num = (++t.parentNode.IEcounter || (t.parentNode.IEcounter = 1));
+					t.lis = '';
+						var _x = t;
+							while (1) {
+								_x = _x.parentNode.parentNode;
+									if (_x.Num) {
+									t.lis = _x.Num + '.' + t.lis;
+								} else {
+							break;
+						}
+					}
+					t.lis += t.Num;
+				t.runtimeStyle.listStyleType = 'none';
+			t.insertAdjacentHTML('afterBegin','<span class="num">' + t.lis  + '. </span>');
+		}(this)
+	),this.pngSet=true)
+);
+}
+.ordered-list .num {
+	padding-right:14px;
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="images/slider-pm-1.jpg" Title=""></Image>
+	<Image Source="images/slider-pm-2.jpg" Title=""></Image>
+	<Image Source="images/slider-pm-3.jpg" Title=""></Image>
+    
+  </Contents>
+  <Settings ImageWidth="940" ImageHeight="397" LoaderColor="0xf2f2f2" InnerSideColor="0xf2f2f2" SideShadowAlpha="0.5" DropShadowAlpha="0.3" DropShadowDistance="5" DropShadowScale="0.9" DropShadowBlurX="40" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="20" MenuColor1="0x999999" MenuColor2="0x333333" MenuColor3="0xFFFFFF" ControlSize="1" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280&#xD;&#xA;" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x222222" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="10" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="9" Time="1.0" Transition="easeInOutBack" Delay="0.1" DepthOffset="300" CubeDistance="30"></Transition>
+    <Transition Pieces="15" Time="1.2" Transition="easeInOutElastic" Delay="0.03" DepthOffset="200" CubeDistance="10"></Transition>
+    <Transition Pieces="5" Time="1.1" Transition="easeInOutCubic" Delay="0.1" DepthOffset="500" CubeDistance="50"></Transition>
+  </Transitions>
+</Piecemaker>

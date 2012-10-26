@@ -1,0 +1,42 @@
+/* tabset */
+.tabset {
+	border-bottom:0px;
+}
+.tabset li {
+	margin-left:0px;
+	float:left;
+	border-bottom:1px solid #ecedf3;
+}
+
+
+.tabset2 {
+	margin:0;
+}
+.tabset2 ul {
+	border-right:0px;
+	padding:0;
+}
+
+.tabsetnav {
+	padding:0;
+	font: 14px/18px 'Open Sans', Arial, Helvetica, sans-serif;
+	margin:0 30px 0 0;
+}
+.tabsetnav ul {
+	border-right:1px solid #ecedf3;
+	padding:7px 10px 2px 0;
+}
+.tabset2 li {
+	margin-bottom:18px;
+}
+.tabset2 a {
+	color:#555;
+}
+.tabset2 a:hover,
+.tabset2 .active a {
+	color:#222;
+	font-weight:bold;
+}
+*+html .tabset2 a:hover {
+	font-weight:normal;
+}
